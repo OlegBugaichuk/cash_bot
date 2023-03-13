@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cash-bot"
+version = "0.1.0"
+description = "Cash"
+authors = ["OlegBugaichuk <olegussek@gmail.com>"]
+readme = "README.md"
+packages = [{include = "cash_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-telegram-bot = "^20.1"
+httpx = "^0.23.3"
+pytest = "^7.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
